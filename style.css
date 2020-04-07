@@ -37,18 +37,20 @@ header{
     text-align: center;
 }
 .container{
-    padding: 40px;
+    padding: 40px 0;
     margin: 0 auto;
     max-width: 100%;
     width: 100%;
     /* text-align: center; */
 }
 .box{
-    box-shadow: 10px 17px 52px 5px rgba(110,110,110,1);    box-sizing: border-box;
+    -webkit-box-shadow: 1px 17px 30px 5px rgba(110,110,110,1);
+    -moz-box-shadow: 1px 17px 20px 5px rgba(110,110,110,1);
+    box-shadow: 1px 17px 30px 5px rgba(110,110,110,1);
     padding: 30px;
     border-radius: 4px;
     margin: 30px 20px;
-    width: 394px;
+    max-width: 394px;
 }
 .box-1{
     border-top: 5px solid var(--main-primary-cyan);
